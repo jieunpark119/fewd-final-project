@@ -19,8 +19,10 @@
 
 	</head>
 	<body>
- 
-	<!-- 	HEADER -->
+
+<!--******************************************
+/* HEADER
+/*******************************************/-->
 		<header>
 			<div class="top">
 				<div class="title">
@@ -30,9 +32,9 @@
 				<nav>
 
 					<ul>
-						<li class="nav-link about"><a id="about" href="#">ABOUT</a></li>
-						<li class="nav-link ">&nbsp;/&nbsp;</li>
-						<li class="nav-link news"><a id ="news" href="#">NEWS</a></li>
+						<li class="nav-link about"><a href="#">ABOUT</a></li>
+						<li class="nav-link">&nbsp;/&nbsp;</li>
+						<li class="nav-link news"><a href="#">NEWS</a></li>
 
 					</ul>
 
@@ -40,18 +42,19 @@
 			</div>
 		</header>
 
+<!--******************************************
+/* ABOUT
+/*******************************************/-->
 
-	<!-- 	POP UP TOGGLE ABOUT-->
-
-		<div class="aboutcontent">
+		<div class="popup about">
 
 			<div class="content">
 	
-						<div class="text intro">
+				<div class="about text">
 							<p> 
-								<p class="semititle">ABOUT</p>
+								<div class="semititle">ABOUT</div>
 								<br>
-								The Jangs Müller Type Foundry is established 2012 from<br>New Haven,CT. USA. as a branch of the Jangs Müller Desgin Studio to focus on Type Experiment and Research.
+								The Jangs Müller Type Foundry is established 2012 from<br>New Haven,CT. USA. as a branch of the Jangs Müller Design Studio to focus on Type Experiment and Research.
 								<br>
 								<br>
 								Jangs Müller is the principle typeface designer of this type foundry who
@@ -67,9 +70,9 @@
 								For information on web and mobile applicences, please contact us.
 								All fonts are provided in OpenType format for Mac &amp; PC. 
 							</p>
-						</div>
+				</div>
 
-						<div class="text contact">
+				<div class="about contact">
 							<p>
 								+1(312)-402-1527
 								<br>
@@ -81,9 +84,9 @@
 								Website Developed by
 						
 							</p>
-						</div>
+				</div>
 
-						<div class="text copy">
+				<div class="about right">
 							<p>
 							Jangs Müller Digital Type Foundry.
 							<br>
@@ -92,85 +95,94 @@
 							form. Please do not distribute our fonts
 							illegally.
 							</p>
-						</div>
+				</div>
 			</div>
 		</div>
 
-	<!-- 	POP UP TOGGLE NEWS-->
-		<div class="newscontent">
+<!--******************************************
+/* NEWS
+/*******************************************/-->
+		<div class="popup news">
+			<div class="content">
+				<div class="news text">
 
-
-			<div class="newsfeed">
-				<div class="text feed">
-
-					<p class="semititle">DECEMBER/01/2016</p>
+					<div class="semititle">DECEMBER / 01 / 2016</div>
 					<br>The Jangs Müller Type Foundry Website Launched. There will be a
 					party to celebrate its modest start.
 					<br>
 					<br>
 					<img src="img/img.png">
-
 				</div>
-
-<!-- 				<div class="text feed2">
-
-					<p class="semititle">NOVEMBER/21/2016</p>
-					<br>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry’s standard dummy text ever
-					since the 1500s, when an unknown printer took a galley of type and
-					scrambled it to make a type specimen book. It has survived not only
-					fi ve centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
-					versions of Lorem Ipsum.
-
-				</div> -->
 			</div>
-
 		</div>
 
 
-	<!-- 	Main -->
-			<section>
-				<div class="type">
-				<h1>AUGUST</h1>
-				</div>
-				<div class="type">
-				<h1>ROCLE</h1>
-				</div>
+<!--******************************************
+/* MAIN SECTION
+/*******************************************/-->
+		<section>
+				<!-- august -->
+				<div class="type august">
+					<h1>AUGUST</h1>
+				</div>	
 
+				</div>
+				<!-- rocle -->
+				<div class="type rocle">
+					<h1>ROCLE</h1>
+				</div>
+				<!-- knedge -->
 				<div class="type knedge">
 					<h1>KNEDGE</h1>
 				</div>
-				
-				<div class="knedgecontent">
-						<div class="controlpannel">
-								<div class="sizing">
+
+				<!-- knedge content -->
+					
+				<div class="font knedge">
+
+							<div class="control">
 									<div class="size">
-
-										<ul>
-											<li>Bold</li>
-											<li>Bold Condensed</li>
-											<li>Medium</li>
-											<li>Regular</li>
-
-										</ul>
+											<ul>
+												<li class="regular">Regular</li>
+												<li class="regularItalic">Regular Italic</li>
+												<li class="bold">Bold</li>
+												<li class="book">Book</li>
+												<li class="heavy">Heavy</li>
+												<li class="heavyCondensed">Heavy Condensed</li>
+											</ul>
 									</div>
 
-									<div class="sizeinput">
-										<p>typesize</p>
+									<div class="module">
+										<p>Typesize</p>
+										<input class="sizing" type="range" value="85" min="10" max="200"> 
+										<output>80</output>
+										
+										<button class="reset">Reset</button> 
 									</div>
-								</div>
 
-								<div class="specimen">
-									<p>Specimen / Type in Use</p>
-								</div>
+									<div class="specimen">
+									<a href=#><p>Specimen / Type in Use</p></a>
+									</div>
+							
 
 							</div>
 
-						<div class="typetesting">
-						<h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h1>
-						</div>
+							<aside>
+
+						    	<div class="testing">
+								
+									<textarea class="typeout" rows="5" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea>
+							
+
+								</div> 
+
+
+							</aside>
+
 							
 
 				</div>
+
 
 				<div class="type">
 				<h1>BLACK</h1>
@@ -205,7 +217,7 @@
 
 
 
-			</section>
+		</section>
 
 
 

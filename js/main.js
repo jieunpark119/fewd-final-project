@@ -1,24 +1,29 @@
 
 
-$("#about").on("click", function(){
-	$(".aboutcontent").toggle();
-	$(".newscontent").hide();
+$(".nav-link.about").on("click", function(){
+	$(".popup.about").toggle();
+	$(".popup.news").hide();
 
 
 });
 
 
-$("#news").on("click", function(){
-	$(".newscontent").toggle();
-	$(".aboutcontent").hide();
+$(".nav-link.news").on("click", function(){
+	$(".popup.news").toggle();
+	$(".popup.about").hide();
 
 
 });
+
 
 
 
 $(".type.knedge").on("click", function(){
-	$(".knedgecontent").slideToggle("slow");
+	$(".font.knedge").slideToggle();
 
 
 });
+
+
+
+
