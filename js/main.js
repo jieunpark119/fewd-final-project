@@ -3,8 +3,9 @@
 $(".nav-link.about").on("click", function(){
 	$(".popup.about").toggle();
 	$(".popup.news").hide();
-});
 
+
+});
 
 $(".nav-link.news").on("click", function(){
 	$(".popup.news").toggle();
@@ -13,15 +14,33 @@ $(".nav-link.news").on("click", function(){
 
 
 
+var active = true;
+var testarea;
 
-$(".type.knedge").on("click", function(){
-	$(".font.knedge").slideToggle();
-});
+function showcontent(){
+	if(!active){
+		
+		testarea = $(this).attr('id');
+		console.log(testarea);
 
-$(".type").on("click", function(){
-	// $(this).slideToggle();//hide 
+		active = true;
+		$(this).css("border-bottom","2px dotted black");
+		$(".typetesting" +"."+testarea).slideDown(600);
+		console.log(".typetesting" +"."+testarea);
 
-	var range = $('.sizing'),
+
+	}else{
+	
+		active=false;
+		$(this).css("border-bottom","1px solid black");
+		$(".typetesting" +"."+testarea).slideUp(600);
+	}
+
+}
+
+$(".type").on("click", showcontent);
+
+var range = $('.sizing'),
 	value = $('output');
 	    
 	value.html(range.attr('value'));
@@ -36,57 +55,28 @@ $(".type").on("click", function(){
 	});
 
 
-});
 
  var typeChoice;
 
 
 $(".size li").on("click", function(){
 	
-	typeChoice = $(this).attr("class");
+	typeChoice = $(this).attr("id");
+	console.log(typeChoice);
+	console.log(testarea);
+	$(".size li").css("color","black");
+	$(this).css("color","red");
+	$(".typeout").css("font-family",testarea+typeChoice);
 
-	if(typeChoice==="regular"){
-		$(".typeout").css("font-family","knedgeregular");
-	} else if(typeChoice==="regularItalic"){
-		$(".typeout").css("font-family","knedgeregular_italic");
-	}else if(typeChoice==="bold"){
-		$(".typeout").css("font-family","knedgebold");
-	}else if(typeChoice==="book"){
-		$(".typeout").css("font-family","knedgebook");
-	}else if(typeChoice==="heavy"){
-		$(".typeout").css("font-family","knedgeheavy");
-	}else if(typeChoice==="heavyCondensed"){
-		$(".typeout").css("font-family","knedgeheavy_condensed");
-	}
 });
-
 
 
 $("button").on("click", function(){
 	$(".typeout").css({"font-family":"knedgeregular","font-size":"85px"});
 	$("output").text("85");
 	$(".sizing").val("85");
-
-
-
+	$("textarea").val('');
 }); 
-
-
-
-// var range = $('.sizing'),
-// value = $('output');
-    
-// value.html(range.attr('value'));
-
-// range.on('input', function(){
-//     value.text(this.value);
-// }); 
-
-// range.on("change", function(){
-//   $(".typeout").css("font-size", $(this).val() + "px");
-// });
-
-
 
 
 
