@@ -15,6 +15,7 @@
   height: 0;
 }
 
+/*KNEDGE FONT*/
 
 @font-face {
     font-family: 'knedgeregular';
@@ -73,6 +74,15 @@
 }
 
 
+/*Commencementmono FONT*/
+@font-face {
+    font-family: 'commencementmonoregular';
+    src: url('../font/commencementmonoregular-webfont.woff2') format('woff2'),
+         url('commencementmonoregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 body {
 	background-color: white;
@@ -249,6 +259,11 @@ h1{
 	font-size: 60px;
 }
 
+#commencementmono{
+	font-family: 'commencementmonoregular',sans-serif;
+	font-size: 60px;
+}
+
 
 .typetesting{
 	display: none;
@@ -328,8 +343,21 @@ aside{
 }
 
 
-.typeout {
+.typeout.knedge {
 	font-family: 'knedgeregular',sans-serif;
+	text-align:center;
+	font-size: 85px;
+	height: 100%;
+	width: 100%;
+	padding: 0px 150px 50px 0px;
+	border: none; 
+	overflow: hidden; 
+    background-color: white;
+    resize: auto;
+    outline: none;
+}
+.typeout.commencementmono{
+	font-family: 'commencementmonoregular',sans-serif;
 	text-align:center;
 	font-size: 85px;
 	height: 100%;
