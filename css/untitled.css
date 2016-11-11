@@ -26,6 +26,7 @@
     src: url("../font/knedgeregular-webfont.woff") format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 @font-face {
     font-family: 'knedgeregular_italic';
@@ -33,6 +34,7 @@
          url('../font/knedgeregularitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 @font-face {
     font-family: 'knedgebold';
@@ -40,6 +42,7 @@
          url('../font/knedgebold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 @font-face {
     font-family: 'knedgebook';
@@ -47,6 +50,7 @@
          url('../font/knedgebook-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 @font-face {
     font-family: 'knedgeheavy';
@@ -54,6 +58,7 @@
          url('../font/knedgeheavy-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 @font-face {
     font-family: 'knedgeheavy_condensed';
@@ -61,7 +66,10 @@
          url('../font/knedgeheavycondensed-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
+
+
 /*Commencementmono FONT*/
 @font-face {
     font-family: 'commencementmonoregular';
@@ -69,6 +77,7 @@
          url('commencementmonoregular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 /*rocle light FONT*/
 @font-face {
@@ -77,6 +86,7 @@
          url('roclelight-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 /*FRAKTUR FONT*/
 @font-face {
@@ -93,7 +103,7 @@
     font-weight: normal;
     font-style: normal;
 }
-/*Closed FONT*/
+/*FRAKTUR FONT*/
 @font-face {
     font-family: 'closedheavy';
     src: url('../font/closedheavy-webfont.woff2') format('woff2'),
@@ -101,78 +111,7 @@
     font-weight: normal;
     font-style: normal;
 }
-/*Arquare FONT*/
-@font-face {
-    font-family: 'arquarelight';
-    src: url('../font/arquarelight-webfont.woff2') format('woff2'),
-         url('arquarelight-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-/*REBUILD FONT*/
-@font-face {
-    font-family: 'rebuildlight';
-    src: url('../font/rebuildlight-webfont.woff2') format('woff2'),
-         url('rebuildlight-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'rebuildmedium';
-    src: url('../font/rebuildmedium-webfont.woff2') format('woff2'),
-         url('rebuildmedium-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'rebuildblold';
-    src: url('../font/rebuildbold-webfont.woff2') format('woff2'),
-         url('rebuildbold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-}
-/*MIES FONT*/
-@font-face {
-    font-family: 'miesstencil';
-    src: url('../font/miesstencil-webfont.woff2') format('woff2'),
-         url('miesstencil-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
-/*flutterd FONT*/
-@font-face {
-    font-family: 'flutterdimension';
-    src: url('../font/flutterdimension-webfont.woff2') format('woff2'),
-         url('flutterdimension-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-/*heritageoFONT*/
-@font-face {
-    font-family: 'heritageoexpanded';
-    src: url('../font/heritageoexpanded-webfont.woff2') format('woff2'),
-         url('heritageoexpanded-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-/*bottomi FONT*/
-@font-face {
-    font-family: 'bottomioutline';
-    src: url('../font/bottomioutline-webfont.woff2') format('woff2'),
-         url('bottomioutline-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'bottomifilled2';
-    src: url('../font/bottomifilled-webfont.woff2') format('woff2'),
-         url('bottomifilled-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
 
 /******************************************
@@ -195,6 +134,8 @@ header{
 	margin-bottom: 0px;
 	margin-right: 30px;
 	margin-left: 30px;	
+
+
 }
 
 /*top*/
@@ -333,15 +274,14 @@ section{
 }
 
 h1{
-	 letter-spacing: 4px;
 	text-align:center;
 	padding-top: 1px;
 	font-size: 60px;
 	cursor: pointer;
 }
-
-
-
+.type.rocle h1{
+	padding-top: 0px;
+}
 
 /******************************************
 /* type-content
@@ -365,34 +305,12 @@ h1{
 	font-family: 'frakturmedium',sans-serif;
 	font-size: 60px;
 }
+
 #closed{
 	font-family: 'closedheavy',sans-serif;
 	font-size: 60px;
 }
-#arquare{
-	font-family: 'arquarelight',sans-serif;
-	font-size: 60px;
-}
-#rebuild{
-	font-family: 'rebuildlight',sans-serif;
-	font-size: 60px;
-}
-#mies{
-	font-family: 'miesstencil',sans-serif;
-	font-size: 60px;
-}
-#flutter{
-	font-family: 'flutterdimension',sans-serif;
-	font-size: 60px;
-}
-#heritageo{
-	font-family: 'heritageoexpanded',sans-serif;
-	font-size: 60px;
-}
-#bottomi{
-    font-family: 'bottomioutline',sans-serif;
-	font-size: 60px;
-}
+
 
 
 
@@ -493,29 +411,7 @@ aside{
 .typeout.fraktur{
 	font-family: 'frakturmedium',sans-serif !important;
 }
-.typeout.closed{
-	font-family: 'closedheavy',sans-serif !important;
-}
-.typeout.arquare{
-	font-family: 'arquarelight',sans-serif !important;
-}
-.typeout.rebuild{
-	font-family: 'rebuildlight',sans-serif !important;
-}
-.typeout.mies{
-	font-family: 'miesstencil',sans-serif !important;
-}
 
-.typeout.flutter{
-	font-family: 'flutterdimension',sans-serif !important;
-}
-.typeout.heritageo{
-	font-family: 'heritageoexpanded',sans-serif !important;
-
-}
-.typeout.bottomi{
-	font-family: 'bottomioutline',sans-serif !important;
-}
 
 
 ::-webkit-input-placeholder {
