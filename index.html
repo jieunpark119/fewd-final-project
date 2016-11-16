@@ -119,7 +119,8 @@
 /* MAIN SECTION
 /*******************************************/-->
 		<section>
-				<!-- knedge -->
+				
+<!--*********KNEDGE********/-->
 				<div class="type" id="knedge">
 					<h1>KNEDGE</h1>
 				</div>
@@ -165,7 +166,7 @@
 
 							</aside>
 				</div>
-				<!-- rocle -->
+<!--*********ROOCLE********/-->
 				<div class="type rocle" id="rocle">
 					<h1 style="padding-top:0">ROCLE</h1>
 				</div>
@@ -206,7 +207,7 @@
 
 							</aside>
 				</div>
-				<!-- Fraktur -->
+<!--********* FRAKTUR ********/-->
 				<div class="type fraktur" id="fraktur">
 					<h1>FRAKTUR</h1>
 				</div>
@@ -217,7 +218,6 @@
 									<div class="size">
 											<ul>
 												<li id="medium" class="selected">Medium</li>
-												<li id="poster">Poster</li>
 											</ul>
 									</div>
 
@@ -248,7 +248,7 @@
 
 							</aside>
 				</div>
-				<!-- Closed -->
+<!--********* CLOSED ********/-->
 				<div class="type" id="closed">
 				<h1 style="padding-top: 10px">CLOSED</h1>
 				</div>
@@ -289,7 +289,7 @@
 
 					</aside>
 				</div>
-				<!-- Arquare -->
+<!--********* ARQUARE ********/-->
 				<div class="type" id="arquare">
 				<h1 style="padding-top: 0px">ARQUARE</h1>
 				</div>
@@ -299,7 +299,7 @@
 					<div class="control">
 							<div class="size">
 									<ul>
-										<li id="heavy" class="selected">Heavy</li>
+										<li id="light" class="selected">Light</li>
 									</ul>
 							</div>
 
@@ -330,7 +330,7 @@
 
 					</aside>
 				</div>
-				<!-- rebuild -->
+<!--********* rebuild ********/-->
 				<div class="type" id="rebuild">
 				<h1 style="padding-top: 0px">REBUILD</h1>
 				</div>
@@ -340,8 +340,8 @@
 							<div class="size">
 									<ul>
 										<li id="light" class="selected">Light</li>
-										<li id="medium">Medium</li>
-										<li id="bold">Bold</li>
+										<!-- <li id="medium">Medium</li>
+										<li id="bold">Bold</li> -->
 									</ul>
 							</div>
 
@@ -372,50 +372,10 @@
 
 					</aside>
 				</div>
-				<!-- mies -->
-				<div class="type" id="mies">
-				<h1>MIES</h1>
-				</div>
-				<!-- mies content -->
-				<div class="typetesting mies">
-
-					<div class="control">
-							<div class="size">
-									<ul>
-										<li id="stencil" class="selected">Stencil</li>
-									</ul>
-							</div>
-
-							<div class="module">
-								<p>Typesize</p>
-								<input class="sizing" type="range" value="85" min="10" max="200"> 
-								<output>80</output>
-								
-								<!-- <button class="reset">Reset</button>  -->
-							</div>
-
-							<div class="specimen">
-							<a href="specimens/Knedge_Spenimen.pdf" download="Knedge_Spenimen.pdf" ><p>Specimen / Type in Use</p></a>
-							</div>
-					
-
-					</div>
-
-					<aside>
-
-				    	<div class="inputtesting">
-						
-							<textarea class="typeout mies" rows="5" col="" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea>
-					
-
-						</div> 
-
-
-					</aside>
-				</div>
-				<!-- FLUTTER -->
+<!--********* MIES********/-->
+<!--********* FLUTTER ********/-->
 				<div class="type" id="flutter">
-				<h1  style="padding-top: 0px" >FLUTTER</h1>
+				<h1  style="padding-top: 0px; font-size: 55px" >FLUTTER</h1>
 				</div>
 				<!-- FLUTTER content -->
 				<div class="typetesting flutter">
@@ -454,9 +414,9 @@
 
 					</aside>
 				</div>
-				<!-- HERITAGEO -->
+<!--********* HERITAGEO ********/-->
 				<div class="type" id="heritageo">
-				<h1 style="padding-top: 0px">HERITAGEO</h1>
+				<h1 style="padding-top: 0px ; font-size: 50px">HERITAGEO</h1>
 				</div>
 				<!-- HERITAGEO content -->
 				<div class="typetesting heritageo">
@@ -495,9 +455,9 @@
 
 					</aside>
 				</div>
-				<!-- bottomi -->
+<!--********* BOTTOMI ********/-->
 				<div class="type" id="bottomi">
-				<h1>BOTTOMI</h1>
+				<h1 style="padding-top: 0px ;font-size: 55px">BOTTOMI</h1>
 				</div>
 				<!-- BOTTOMI CONTENT-->
 				<div class="typetesting bottomi">
@@ -505,7 +465,6 @@
 					<div class="control">
 							<div class="size">
 									<ul>
-										<li id="filled" class="selected">Filled</li>
 										<li id="outline" class="selected">Outline</li>
 									</ul>
 							</div>
@@ -537,19 +496,89 @@
 
 					</aside>
 				</div>
-				<!-- rubend -->
-				<div class="type">
+<!--********* RUBEND ********/-->
+				<div class="type" id="rubend">
 				<h1>RUBEND</h1>
 				</div>
-				<!-- ASIALPHABEET -->
-				<div class="type">
-				<h1>ASIALPHABET</h1>
+				<!-- rubend CONTENT-->
+				<div class="typetesting rubend">
+
+					<div class="control">
+							<div class="size">
+									<ul>
+										<li id="expandable" class="selected">Expandable</li>
+									<!-- 	<li id="flexible">Flexible</li>
+										<li id="foldable">Foldable</li> -->
+									</ul>
+							</div>
+
+							<div class="module">
+								<p>Typesize</p>
+								<input class="sizing" type="range" value="85" min="10" max="200"> 
+								<output>80</output>
+								
+								<!-- <button class="reset">Reset</button>  -->
+							</div>
+
+							<div class="specimen">
+							<a href="specimens/Knedge_Spenimen.pdf" download="Knedge_Spenimen.pdf" ><p>Specimen / Type in Use</p></a>
+							</div>
+					
+
+					</div>
+
+					<aside>
+
+				    	<div class="inputtesting">
+						
+							<textarea class="typeout rubend" rows="5" col="" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea>
+					
+
+						</div> 
+
+
+					</aside>
 				</div>
-				<!-- Futulabyrinth -->
-				<div class="type">
-				<h1>FUTULABYRINTH</h1>
+<!--********* ASIALPHABET ********/-->
+				<div class="type" id="asialphabet">
+				<h1 style="padding-top: 0;font-size: 50px">ASIALPHABET</h1>
 				</div>
-				<!--COMMENCEMENT -->
+				<!-- asialphabet CONTENT-->
+				<div class="typetesting asialphabet">
+
+					<div class="control">
+							<div class="size">
+									<ul>
+										<li id="regular" class="selected">Regular</li>
+									<!-- 	<li id="flexible">Flexible</li>
+										<li id="foldable">Foldable</li> -->
+									</ul>
+							</div>
+
+							<div class="module">
+								<p>Typesize</p>
+								<input class="sizing" type="range" value="85" min="10" max="200"> 
+								<output>80</output>
+								
+								<!-- <button class="reset">Reset</button>  -->
+							</div>
+
+							<div class="specimen">
+							<a href="specimens/Knedge_Spenimen.pdf" download="Knedge_Spenimen.pdf" ><p>Specimen / Type in Use</p></a>
+							</div>
+					
+
+					</div>
+
+					<aside>
+
+				    	<div class="inputtesting">
+							<textarea class="typeout asialphabet" rows="5" col="" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea>
+						</div> 
+					</aside>
+				</div>
+<!--********* FUTULABYRINTH ********/-->		
+<!--********* COMMENCEMENT ********/-->
 				<div class="type" id="commencementmono">
 				<h1>COMMENCEMENT</h1>
 				</div>
@@ -589,17 +618,100 @@
 
 
 					</aside>
-				</div>
-	
-				<!-- august -->
-				<div class="type august">
-					<h1>AUGUST</h1>
 				</div>	
+<!--********* AUGUST ********/-->
+				<div class="type" id="august">
+					<h1 style="padding-top: 0px;">AUGUST</h1>
+				</div>	
+				<div class="typetesting august">
 
-				<!--_Bernhard -->
-				<div class="type">
-				<h1>BERNHARD</h1>
+					<div class="control">
+							<div class="size">
+									<ul>
+										<li id="light" class="selected" >Light</li>
+										<li id="lightitalic" class="selected" >Light Italic</li>
+										<li id="medium" class="selected" >Medium</li>
+										<li id="mediumitalic" >Medium Italic</li>
+										<li id="bold">Bold</li>
+										<li id="boldcondensed">Bold Condensed</li>
+										<li id="boldexpanded" >Bold Expanded</li>
+										<li id="bolditalic">Bold Italic</li>
+									
+									</ul>
+							</div>
+
+							<div class="module">
+								<p>Typesize</p>
+								<input class="sizing" type="range" value="85" min="10" max="200"> 
+								<output>80</output>
+								
+								<!-- <button class="reset">Reset</button>  -->
+							</div>
+
+							<div class="specimen">
+							<a href="specimens/Commencement_Spenimen.pdf" download="Commencement_Spenimen.pdf" ><p>Specimen / Type in Use</p></a>
+							</div>
+					
+
+					</div>
+
+					<aside>
+
+				    	<div class="inputtesting">
+						
+							<textarea class="typeout august" rows="5" col="" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea>
+					
+
+						</div> 
+
+
+					</aside>
 				</div>
+
+<!--********* BERNHARD ********/-->
+				<div class="type" id="bernhard">
+				<h1 style="padding-top: 0px; font-size: 55px;">BERNHARD</h1>
+				</div>
+
+				<div class="typetesting bernhard">
+
+					<div class="control">
+							<div class="size">
+									<ul>
+										<li id="heavy" class="selected" >Heavy</li>
+
+									
+									</ul>
+							</div>
+
+							<div class="module">
+								<p>Typesize</p>
+								<input class="sizing" type="range" value="85" min="10" max="200"> 
+								<output>80</output>
+								
+								<!-- <button class="reset">Reset</button>  -->
+							</div>
+
+							<div class="specimen">
+							<a href="specimens/Commencement_Spenimen.pdf" download="Commencement_Spenimen.pdf" ><p>Specimen / Type in Use</p></a>
+							</div>
+					
+
+					</div>
+
+					<aside>
+
+				    	<div class="inputtesting">
+						
+							<textarea class="typeout bernhard" rows="5" col="" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea>
+					
+
+						</div> 
+
+
+					</aside>
+				</div>
+
 				
 				
 

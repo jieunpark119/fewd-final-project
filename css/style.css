@@ -167,12 +167,125 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'bottomifilled2';
+    font-family: 'bottomifilled';
     src: url('../font/bottomifilled-webfont.woff2') format('woff2'),
          url('bottomifilled-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
+/*rubend FONT*/
+@font-face {
+    font-family: 'rubendexpandable';
+    src: url('../font/rubendexpandable-webfont.woff2') format('woff2'),
+         url('rubendexpandable-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'rubendflexible';
+    src: url('../font/rubendflexible-webfont.woff2') format('woff2'),
+         url('rubendflexible-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'rubendfoldable';
+    src: url('../font/rubendfoldable-webfont.woff2') format('woff2'),
+         url('rubendfoldable-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*asialphabet FONT*/
+@font-face {
+    font-family: 'asialphabetregular';
+    src: url('../font/asialphabet-webfont.woff2') format('woff2'),
+         url('asialphabet-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*futulabyrinth FONT*/
+@font-face {
+    font-family: 'futulabyrinthsquare';
+    src: url('../font/futulabyrinthsquare-webfont.woff2') format('woff2'),
+         url('futulabyrinthsquare-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'futulabyrinthcircuit';
+    src: url('../font/futulabyrinthcircuit-webfont.woff2') format('woff2'),
+         url('futulabyrinthcircuit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*august FONT*/
+@font-face {
+    font-family: 'augustmedium';
+    src: url("../font/augustmedium-webfont.woff2") format('woff'),
+         url('../font/augustmedium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'augustmediumitalic';
+    src: url("../font/augustmediumitalic-webfont.woff2") format('woff'),
+         url('../font/augustmediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'augustlight';
+    src: url("../font/augustlight-webfont.woff2") format('woff'),
+         url('../font/augustlight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'augustlightitalic';
+    src: url("../font/augustlightitalic-webfont.woff2") format('woff'),
+         url('../font/augustlightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'augustbold';
+    src: url("../font/augustbold-webfont.woff2") format('woff'),
+         url('../font/augustbold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'augustboldcondensed';
+    src: url("../font/augustboldcondensed-webfont.woff2") format('woff'),
+         url('../font/augustboldcondensed-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'augustboldexpanded';
+    src: url("../font/augustboldexpanded-webfont.woff2") format('woff'),
+         url('../font/augustboldexpanded-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'augustbolditalic';
+    src: url("../font/augustbolditalic-webfont.woff2") format('woff'),
+         url('../font/augustbolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*august FONT*/
+@font-face {
+    font-family: 'bernhardheavy';
+    src: url("../font/bernhardheavy-webfont.woff2") format('woff'),
+         url('../font/bernhardheavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 
 
 /******************************************
@@ -333,7 +446,7 @@ section{
 }
 
 h1{
-	 letter-spacing: 4px;
+	letter-spacing: 4px;
 	text-align:center;
 	padding-top: 1px;
 	font-size: 60px;
@@ -393,6 +506,32 @@ h1{
     font-family: 'bottomioutline',sans-serif;
 	font-size: 60px;
 }
+#rubend{
+    font-family: 'rubendexpandable',sans-serif;
+    font-size: 60px;
+}
+#asialphabet{
+    font-family: 'asialphabetregular',sans-serif;
+    font-size: 60px;
+}
+
+#futulabyrinth{
+    font-family: 'futulabyrinthcircuit',sans-serif;
+    font-size: 60px;
+}
+
+#august{
+    font-family: 'augustmedium',sans-serif;
+    font-size: 60px;
+}
+#bernhard{
+    font-family: 'bernhardheavy',sans-serif;
+    font-size: 60px;
+}
+
+
+
+
 
 
 
@@ -516,6 +655,20 @@ aside{
 .typeout.bottomi{
 	font-family: 'bottomioutline',sans-serif !important;
 }
+.typeout.rubend{
+    font-family: 'rubendexpandable',sans-serif !important;
+}
+.typeout.futulabyrinth{
+    font-family: 'futulabyrinthcircuit',sans-serif !important;
+}
+.typeout.august{
+    font-family: 'augustmedium',sans-serif ;
+}
+
+.typeout.august{
+    font-family: 'bernhardheavy',sans-serif ;
+}
+
 
 
 ::-webkit-input-placeholder {

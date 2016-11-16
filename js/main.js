@@ -10,9 +10,9 @@ var selectedfont;
 $(".nav-link.about").on("click", function(){
 	$(".popup.about").toggle();
 	$(".popup.news").hide();
-	$(document).on('click', function(e) {
-	$(".popup.about").hide();
-	});
+		$(document).on('click', function(e) {
+		$(".popup.about").hide();
+		});
 });
 
 $(".nav-link.news").on("click", function(){
@@ -25,10 +25,8 @@ $(".nav-link.news").on("click", function(){
 
 function showcontent(){
 	if(!active){
-		
 		testarea = $(this).attr('id');
 		console.log(testarea);
-
 		active = true;
 		$(this).css("border-bottom","2px dotted black");
 		$(".typetesting" +"."+testarea).slideDown(400);
@@ -45,9 +43,8 @@ function showcontent(){
 // reset 
 
 function reset(){
-	$(".typeout").css({"font-family":testarea+"regular","font-size":"85px"});
+	$(".typeout").css({"font-family":testarea+"bold","font-size":"85px"});
 	console.log(testarea);
-	console.log(testarea+"regular");
 	$("output").text("85");
 	$(".sizing").val("85");
 	$("textarea").val('');
@@ -80,6 +77,7 @@ $(".size li").on("click", function(){
 	$(".size li").css("color","black");
 	$(this).css("color","red");
 	$(".typeout").css("font-family",testarea+typeChoice);
+	console.log(testarea+typeChoice)
 
 });
 
