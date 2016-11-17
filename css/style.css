@@ -662,14 +662,22 @@ aside{
     font-family: 'futulabyrinthcircuit',sans-serif !important;
 }
 .typeout.august{
-    font-family: 'augustmedium',sans-serif ;
+    font-family: 'augustmedium',sans-serif !important;
 }
 
 .typeout.august{
-    font-family: 'bernhardheavy',sans-serif ;
+    font-family: 'bernhardheavy',sans-serif !important;
+}
+
+.typeout.asia{
+    font-family: 'bernhardheavy',sans-serif !important;
 }
 
 
+.typeout.asialphabet{
+    font-family: 'asialphabetregular',sans-serif!important;
+    font-size: 60px;
+}
 
 ::-webkit-input-placeholder {
    color: black;

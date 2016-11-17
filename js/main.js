@@ -10,9 +10,6 @@ var selectedfont;
 $(".nav-link.about").on("click", function(){
 	$(".popup.about").toggle();
 	$(".popup.news").hide();
-		$(document).on('click', function(e) {
-		$(".popup.about").hide();
-		});
 });
 
 $(".nav-link.news").on("click", function(){
@@ -40,6 +37,11 @@ function showcontent(){
 	}
 }
 
+
+	
+
+
+
 // reset 
 
 function reset(){
@@ -52,7 +54,18 @@ function reset(){
 }
 
 
+
 $(".type").on("click", showcontent);
+
+$(".type").on("click", function(){
+	testarea = $(this).attr('id');
+	var clicked = ".typetesting" +"."+testarea ;
+	$(this).insertAfter(".first");
+	$(clicked).insertAfter(this);
+
+});
+
+
 
 var range = $('.sizing'),
 value = $('output');
