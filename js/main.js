@@ -15,74 +15,70 @@ autosize(document.querySelectorAll('textarea'));
 
 
 
-// $(".nav-link.about").on("click", function(){
-// 	$(".popup.about").toggle();
-// 	$(".popup.news").hide();
-// });
+$(".nav-link.about").on("click", function(){
+	$(".popup.about").toggle();
+	$(".popup.news").hide();
+});
 
-// $(".nav-link.news").on("click", function(){
-// 	$(".popup.news").toggle();
-// 	$(".popup.about").hide();
-// });
+$(".nav-link.news").on("click", function(){
+	$(".popup.news").toggle();
+	$(".popup.about").hide();
+});
 
 
+
+
+
+
+$(".side.about").on("click",aboutOpen);
 
 function aboutOpen(){
 	if(!active){
 		console.log(!active);
 		active = true;
 		console.log(active);
-		 $(".popup.about").animate({ "right": "-100" }, "slow");
-		 $(".popup.about").css("border-left", "18px solid white");
-		 $(".content.about").hide();
+	$(".side.about").animate({width:"5%"},"slow")
+	$(".main_innerwrapper").animate({width:"88%"},"slow")
+	$("header").animate({width:"88%"},"slow")
+	$(".popup.about").hide();
+	$(".popup.news").hide();
 
-	}else{
+}else{
 		active=false;
-		$(".popup.about").animate({ "right": "50" }, "slow");
-		$(".popup.about").css("border-left", "0px");
-		$(".content.about").show();
+	
+	$(".side.about").animate({width:"30%"},"slow")
+	$(".main_innerwrapper").animate({width:"65%"},"slow")
+	$("header").animate({width:"65%"},"slow")
+	$(".popup.about").delay(600).fadeIn(10);
+
 	}
 }
+
+
+$(".side.news").on("click",newsOpen);
 
 function newsOpen(){
 	if(!right){
-		console.log(!active);
 		right = true;
-		console.log(active);
-		 $(".popup.news").animate({ "right": "-200" }, "slow");
-		 $(".content.news").hide();
+	$(".side.news").animate({width:"5%"},"slow")
+	$(".main_innerwrapper").animate({width:"88%"},"slow")
+	$("header").animate({width:"88%"},"slow")
+	$(".popup.news").hide();
+	$(".popup.about").hide();
 
 	}else{
 		right=false;
-		$(".popup.news").animate({ "right": "0" }, "slow");
-		$(".content.news").show();
+	$(".side.news").animate({width:"30%"},"slow")
+	$(".main_innerwrapper").animate({width:"65%"},"slow")
+	$("header").animate({width:"65%"},"slow")
+	$(".popup.news").delay(800).fadeIn(10);
 	}
 }
 
-$(".popup.about").on("click",aboutOpen);
-$(".popup.news").on("click",newsOpen);
 
 
 
-// $(".test.one").on("click",function(){
-// 	 $(".popup.about").animate({ "right": "50" }, "slow");
-// 	 $(".insemititle.one").animate({ "right": "50" }, "slow");
-// });
 
-// $(".popup.about").on("click",function(){
-// 	 $(this).animate({ "right": "-300" }, "slow");
-// 	 $(".insemititle.one").css("visibility","visible");
-
-// });
-
-
-// $(".test.two").on("click",function(){
-// 	 $(".popup.news").animate({ "right": "0" }, "slow");
-// });
-
-// $(".popup.news").on("click",function(){
-// 	 $(this).animate({ "right": "-300" }, "slow");
-// });
 
 
 
