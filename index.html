@@ -15,7 +15,163 @@
 		<link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8"/>
 		 <script data-require="jquery@2.1.4" data-semver="2.1.4" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script type="text/javascript">
+		// Popup window code
+		function popitup(url) {
+			newwindow=window.open(url,'name','height=690,width=880,top=100,left=500');
+			if (window.focus) {newwindow.focus()}
+			return false;
+		}
 		
+	
+
+			$(window).ready(function(){
+			     document.querySelector(".typeout.knedge").addEventListener("paste", function(e){
+			        e.preventDefault();
+			        var text = e.clipboardData.getData("text/plain");
+			        document.execCommand("insertHTML", false, text);
+			    });
+			});
+
+			$(window).ready(function(){
+			     document.querySelector(".typeout.rocle").addEventListener("paste", function(e){
+			        e.preventDefault();
+			        var text = e.clipboardData.getData("text/plain");
+			        document.execCommand("insertHTML", false, text);
+			    });
+			});
+
+			$(window).ready(function(){
+			     document.querySelector(".typeout.fraktur").addEventListener("paste", function(e){
+			        e.preventDefault();
+			        var text = e.clipboardData.getData("text/plain");
+			        document.execCommand("insertHTML", false, text);
+			    });
+			});
+
+				$(window).ready(function(){
+			     document.querySelector(".typeout.closed").addEventListener("paste", function(e){
+			        e.preventDefault();
+			        var text = e.clipboardData.getData("text/plain");
+			        document.execCommand("insertHTML", false, text);
+			    });
+			});
+					$(window).ready(function(){
+			     document.querySelector(".typeout.arquare").addEventListener("paste", function(e){
+			        e.preventDefault();
+			        var text = e.clipboardData.getData("text/plain");
+			        document.execCommand("insertHTML", false, text);
+			    });
+			});
+					$(window).ready(function(){
+			     document.querySelector(".typeout.rebuild").addEventListener("paste", function(e){
+			        e.preventDefault();
+			        var text = e.clipboardData.getData("text/plain");
+			        document.execCommand("insertHTML", false, text);
+			    });
+			});
+
+		$(window).ready(function(){
+			     document.querySelector(".typeout.mies").addEventListener("paste", function(e){
+			        e.preventDefault();
+			        var text = e.clipboardData.getData("text/plain");
+			        document.execCommand("insertHTML", false, text);
+			    });
+			});
+		$(window).ready(function(){
+			     document.querySelector(".typeout.flutter").addEventListener("paste", function(e){
+			        e.preventDefault();
+			        var text = e.clipboardData.getData("text/plain");
+			        document.execCommand("insertHTML", false, text);
+			    });
+			});
+		$(window).ready(function(){
+			     document.querySelector(".typeout.heritageo").addEventListener("paste", function(e){
+			        e.preventDefault();
+			        var text = e.clipboardData.getData("text/plain");
+			        document.execCommand("insertHTML", false, text);
+			    });
+			});
+				$(window).ready(function(){
+			     document.querySelector(".typeout.bottomi").addEventListener("paste", function(e){
+			        e.preventDefault();
+			        var text = e.clipboardData.getData("text/plain");
+			        document.execCommand("insertHTML", false, text);
+			    });
+			});
+
+		$(window).ready(function(){
+			     document.querySelector(".typeout.rubend").addEventListener("paste", function(e){
+			        e.preventDefault();
+			        var text = e.clipboardData.getData("text/plain");
+			        document.execCommand("insertHTML", false, text);
+			    });
+			});
+
+		$(window).ready(function(){
+			     document.querySelector(".typeout.asialphabet").addEventListener("paste", function(e){
+			        e.preventDefault();
+			        var text = e.clipboardData.getData("text/plain");
+			        document.execCommand("insertHTML", false, text);
+			    });
+			});
+		$(window).ready(function(){
+			     document.querySelector(".typeout.fatol").addEventListener("paste", function(e){
+			        e.preventDefault();
+			        var text = e.clipboardData.getData("text/plain");
+			        document.execCommand("insertHTML", false, text);
+			    });
+			});
+
+				$(window).ready(function(){
+			     document.querySelector(".typeout.futulabyrinth").addEventListener("paste", function(e){
+			        e.preventDefault();
+			        var text = e.clipboardData.getData("text/plain");
+			        document.execCommand("insertHTML", false, text);
+			    });
+			});
+		$(window).ready(function(){
+			     document.querySelector(".typeout.opcode").addEventListener("paste", function(e){
+			        e.preventDefault();
+			        var text = e.clipboardData.getData("text/plain");
+			        document.execCommand("insertHTML", false, text);
+			    });
+			});
+
+				$(window).ready(function(){
+			     document.querySelector(".typeout.commencementmono").addEventListener("paste", function(e){
+			        e.preventDefault();
+			        var text = e.clipboardData.getData("text/plain");
+			        document.execCommand("insertHTML", false, text);
+			    });
+			});
+		$(window).ready(function(){
+			     document.querySelector(".typeout.august").addEventListener("paste", function(e){
+			        e.preventDefault();
+			        var text = e.clipboardData.getData("text/plain");
+			        document.execCommand("insertHTML", false, text);
+			    });
+			});
+		$(window).ready(function(){
+			     document.querySelector(".typeout.bernhard").addEventListener("paste", function(e){
+			        e.preventDefault();
+			        var text = e.clipboardData.getData("text/plain");
+			        document.execCommand("insertHTML", false, text);
+			    });
+			});
+
+
+
+
+
+
+
+
+			
+	
+
+
+		</script>
 
 	</head>
 	<body>
@@ -32,45 +188,57 @@
 						<div class="title">
 							<p><a href="index.html">JANGS MÜLLER TYPE FOUNDRY</a></p>
 						</div>
-				</div>
+					<!-- 	<div class="hamburger">
+       					 <span></span>
+      					</div>
+      					<div class="close-nav">
+         				 <span></span>
+        				</div>
+				</div> -->
+		
 			</header>
-
+		
 <!--******************************************
 /* MAIN SECTION
 /*******************************************/-->
+
 	<section>
 
-	<div class="alltype">
-			
 <!--*********KNEDGE********/-->
 
-				<div class="type" id="knedge">
-					<h1>KNEDGE</h1>
+				<div class="type"
+				 id="knedge">
+					<p>KNEDGE</p>
 				</div>
 				<!-- knedge content -->		
 				<div class="typetesting knedge">
 						<div class="control">
 									<div class="size">
 											<ul>
-												<li id="regular" class="selected" >Regular</li>
-												<li id="regular_italic" >Regular Italic</li>
-												<li id="bold">Bold</li>
-												<li id="book" >Book</li>
-												<li id="heavy" >Heavy</li>
-												<li id="heavy_condensed" >Heavy Condensed</li>
+												<li id="knedgelight" alt="knedge">Light</li>
+												<li id="knedgelight_italic" alt="knedge"  >Light Italic</li>
+												<li id="knedgeegular" alt="knedge" >Regular</li>
+												<li id="knedgeregular_italic" alt="knedge" >Regular Italic</li>
+												<li id="knedgebold" alt="knedge">Bold</li>
+												<li id="knedgebold_italic" alt="knedge">Bold Italic</li>
+												<li id="knedgebook" alt="knedge">Book</li>
+												<li id="knedgeheavy" alt="knedge">Heavy</li>
+												<li id="knedgeheavy_italic" alt="knedge">Heavy Italic</li>
+												<li id="knedgeheavy_condensed" alt="knedge">Heavy Condensed</li>
 											</ul>
 									</div>
-									<div class="module">
+								<div class="module">
 									<p>Typesize</p>
-								<input class="sizing" type="range" value="60" min="10" max="200"> 
-								<output>60</output>
+								<input class="sizing knedge" alt="knedge" type="range" value="60" min="10" max="200"> 
+								<output class="output knedge">60</output>
 										
-										<!-- <button class="reset">Reset</button>  -->
+								<div class="specimen">
+									<a href="specimens/Knedge_Spenimen.pdf" download="Knedge_Spenimen.pdf" ><p>Specimen PDF</p></a>
+								</div>
 							</div>
 
-							<div class="specimen">
-									<a href="specimens/Knedge_Spenimen.pdf" download="Knedge_Spenimen.pdf" ><p>Specimen / Type in Use</p></a>
-							</div>
+
+							
 							
 							</div>
 
@@ -78,9 +246,18 @@
 							
 							<aside>
 						    	<div class="inputtesting">
-						    		<textarea class="typeout knedge" rows="3" col="" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea>
+						    	<!-- 	<textarea class="typeout knedge" style="font-family: 'knedgeregular'; " placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea> -->
+<!-- 
+onpaste="return false;" -->
+						    <div class="typeout knedge" data-italicless="false" style=" font-family:'knedgeregular'; width: 100%; line-height: 1.08em;" contenteditable="true" spellcheck="false">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+
+
+
 								</div> 
+
 							</aside>
+
+
 					
 							
 
@@ -97,20 +274,25 @@
 							<div class="control">
 									<div class="size">
 											<ul>
-												<li id="light" class="selected" >Light</li>
+												<li id="roclelight" alt="rocle" >Light</li>
 											</ul>
 									</div>
 
 									<div class="module">
 										<p>Typesize</p>
-								<input class="sizing" type="range" value="60" min="10" max="200"> 
-								<output>60</output>
+								<input class="sizing rocle" alt="rocle" type="range" value="60" min="10" max="200"> 
+								<output class="input rocle">60</output>
 										<!-- <button class="reset">Reset</button>  -->
+									
+									<div class="specimen">
+							<!-- 		<a href="specimens/Knedge_Spenimen.pdf" download="Knedge_Spenimen.pdf" > -->
+									<p>Specimen PDF</p>
+
 									</div>
 
-									<div class="specimen">
-									<a href="specimens/Knedge_Spenimen.pdf" download="Knedge_Spenimen.pdf" ><p>Specimen / Type in Use</p></a>
 									</div>
+
+									
 							
 
 							</div>
@@ -119,7 +301,9 @@
 
 						    	<div class="inputtesting">
 								
-									<textarea class="typeout rocle" rows="3" col="" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea>
+									<!-- <textarea class="typeout rocle" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea> -->
+									<div class="typeout rocle" data-italicless="false" style="font-family: 'roclelight'; width: 100%; line-height: 1.08em;" contenteditable="true" spellcheck="false">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
+
 							
 
 								</div> 
@@ -137,21 +321,24 @@
 							<div class="control">
 									<div class="size">
 											<ul>
-												<li id="medium" class="selected">Medium</li>
+												<li id="frakturmedium" alt="fraktur">Medium</li>
+												<li id="frakturposter" alt="fraktur">Poster</li>
 											</ul>
 									</div>
 
 									<div class="module">
 										<p>Typesize</p>
-								<input class="sizing" type="range" value="60" min="10" max="200"> 
-								<output>60</output>
+								<input class="sizing fraktur" alt="fraktur" type="range" value="60" min="10" max="200"> 
+								<output class="output fraktur">60</output>
 										
-										<!-- <button class="reset">Reset</button>  -->
+										<div class="specimen">
+							<!-- 		<a href="specimens/Knedge_Spenimen.pdf" download="Knedge_Spenimen.pdf" > -->
+									<p>Specimen PDF</p>
+									
+									</div>
 									</div>
 
-									<div class="specimen">
-									<a href="specimens/Knedge_Spenimen.pdf" download="Knedge_Spenimen.pdf" ><p>Specimen / Type in Use</p></a>
-									</div>
+
 							
 
 							</div>
@@ -160,7 +347,8 @@
 
 						    	<div class="inputtesting">
 								
-									<textarea class="typeout fraktur" rows="3" col="" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea>
+									<!-- <textarea class="typeout fraktur" style ="font-family: 'frakturmedium'; " placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea> -->
+									<div class="typeout fraktur" data-italicless="false" style="font-family: 'frakturmedium'; width: 100%; line-height: 1.08em;" contenteditable="true" spellcheck="false">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
 							
 
 								</div> 
@@ -170,30 +358,31 @@
 				</div>
 <!--********* CLOSED ********/-->
 				<div class="type" id="closed">
-				<h1 style="padding-top: 10px">CLOSED</h1>
+				<p style="padding-top: 10px">CLOSED</p>
 				</div>
 				<!-- Closed CONTENT -->
-				<div class="typetesting closed">
+				<div class="typetesting closed" >
 
 					<div class="control">
 							<div class="size">
 									<ul>
-										<li id="heavy" class="selected">Heavy</li>
+										<li id="closedheavy" alt="closed">Heavy</li>
 									</ul>
 							</div>
 
 							<div class="module">
 								<p>Typesize</p>
-								<input class="sizing" type="range" value="60" min="10" max="200"> 
-								<output>60</output>
+								<input class="sizing closed" alt="closed" type="range" value="60" min="10" max="200"> 
+								<output class="output closed">60</output>
 								
 								<!-- <button class="reset">Reset</button>  -->
-							</div>
 
-							<div class="specimen">
-							<a href="specimens/Knedge_Spenimen.pdf" download="Knedge_Spenimen.pdf" ><p>Specimen / Type in Use</p></a>
+								<div class="specimen">
+							<!-- 		<a href="specimens/Knedge_Spenimen.pdf" download="Knedge_Spenimen.pdf" > -->
+									<p>Specimen PDF</p>
+									
+									</div>
 							</div>
-					
 
 					</div>
 
@@ -201,7 +390,8 @@
 
 				    	<div class="inputtesting">
 						
-							<textarea class="typeout closed" rows="3" col="" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea>
+							<!-- <textarea class="typeout closed"  style="padding-bottom:60px;" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea> -->
+							<div class="typeout closed" data-italicless="false" style=" width: 100%; line-height: 1.08em;" contenteditable="true" spellcheck="false">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
 					
 
 						</div> 
@@ -211,7 +401,7 @@
 				</div>
 <!--********* ARQUARE ********/-->
 				<div class="type" id="arquare">
-				<h1 style="padding-top: 0px">ARQUARE</h1>
+				<p style="padding-top: 0px">ARQUARE</p>
 				</div>
 				<!-- Arquare CONTENT -->
 				<div class="typetesting arquare">
@@ -219,22 +409,23 @@
 					<div class="control">
 							<div class="size">
 									<ul>
-										<li id="light" class="selected">Light</li>
+										<li id="arquarelight" alt="arquare">Light</li>
 									</ul>
 							</div>
 
 							<div class="module">
 								<p>Typesize</p>
-								<input class="sizing" type="range" value="60" min="10" max="200"> 
-								<output>60</output>
+								<input class="sizing arquare" alt="arquare" type="range" value="60" min="10" max="200"> 
+								<output class="output arquare">60</output>
 								
-								<!-- <button class="reset">Reset</button>  -->
+								<div class="specimen">
+							<!-- 		<a href="specimens/Knedge_Spenimen.pdf" download="Knedge_Spenimen.pdf" > -->
+									<p>Specimen PDF</p>
+									
+									</div>
 							</div>
 
-							<div class="specimen">
-							<a href="specimens/Knedge_Spenimen.pdf" download="Knedge_Spenimen.pdf" ><p>Specimen / Type in Use</p></a>
-							</div>
-					
+
 
 					</div>
 
@@ -242,7 +433,8 @@
 
 				    	<div class="inputtesting">
 						
-							<textarea class="typeout arquare" rows="3" col="" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea>
+							<!-- <textarea class="typeout arquare" style="padding-bottom:80px;" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea> -->
+							<div class="typeout arquare" data-italicless="false" style=" width: 100%; line-height: 1.08em;" contenteditable="true" spellcheck="false">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
 					
 
 						</div> 
@@ -252,30 +444,33 @@
 				</div>
 <!--********* rebuild ********/-->
 				<div class="type" id="rebuild">
-				<h1 style="padding-top: 0px">REBUILD</h1>
+				<p style="padding-top: 0px">REBUILD</p>
 				</div>
 				<div class="typetesting rebuild">
 
 					<div class="control">
 							<div class="size">
 									<ul>
-										<li id="light" class="selected">Light</li>
-										<!-- <li id="medium">Medium</li>
-										<li id="bold">Bold</li> -->
+										<li id="rebuildlight" alt="rebuild">Light</li>
+										<li id="rebuildmedium" alt="rebuild">Medium</li>
+										<li id="rebuildbold" alt="rebuild">Bold</li>
 									</ul>
 							</div>
 
 							<div class="module">
-						<p>Typesize</p>
-								<input class="sizing" type="range" value="60" min="10" max="200"> 
-								<output>60</output>
+							<p>Typesize</p>
+								<input class="sizing rebuild" alt="rebuild" type="range" value="60" min="10" max="200"> 
+								<output class="output rebuild">60</output>
 								
 								<!-- <button class="reset">Reset</button>  -->
+								<div class="specimen">
+							<!-- 		<a href="specimens/Knedge_Spenimen.pdf" download="Knedge_Spenimen.pdf" > -->
+									<p>Specimen PDF</p>
+									
+									</div>
 							</div>
 
-							<div class="specimen">
-							<a href="specimens/Knedge_Spenimen.pdf" download="Knedge_Spenimen.pdf" ><p>Specimen / Type in Use</p></a>
-							</div>
+							
 					
 
 					</div>
@@ -284,7 +479,8 @@
 
 				    	<div class="inputtesting">
 						
-							<textarea class="typeout rebuild" rows="3" col="" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea>
+							<!-- <textarea class="typeout rebuild" style= "font-family:'rebuildlight'; padding-bottom:60px;" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea> -->
+							<div class="typeout rebuild" data-italicless="false" style=" font-family:'rebuildlight'; width: 100%; line-height: 1.08em;" contenteditable="true" spellcheck="false">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
 					
 
 						</div> 
@@ -293,31 +489,31 @@
 					</aside>
 				</div>
 <!--********* MIES********/-->
-<!--********* FLUTTER ********/-->
-				<div class="type" id="flutter">
-				<h1  style="padding-top: 0px; font-size: 55px" >FLUTTER</h1>
+				<div class="type" id="mies">
+				<p style="padding-top: 0px; font-size: 55px" >MIES</p>
 				</div>
 				<!-- FLUTTER content -->
-				<div class="typetesting flutter">
+				<div class="typetesting mies">
 
 					<div class="control">
 							<div class="size">
 									<ul>
-										<li id="regular" class="selected">Regular</li>
+										<li id="miesstencil" alt="mies">Stencil</li>
 									</ul>
 							</div>
 
 							<div class="module">
 								<p>Typesize</p>
-								<input class="sizing" type="range" value="60" min="10" max="200"> 
-								<output>60</output>
+								<input class="sizing mies" alt="mies" type="range" value="60" min="10" max="200"> 
+								<output class="output mies">60</output>
 								
-								<!-- <button class="reset">Reset</button>  -->
+								<div class="specimen">
+							<!-- 		<a href="specimens/Knedge_Spenimen.pdf" download="Knedge_Spenimen.pdf" > -->
+									<p>Specimen PDF</p>
+									
+									</div>
 							</div>
 
-							<div class="specimen">
-							<a href="specimens/Knedge_Spenimen.pdf" download="Knedge_Spenimen.pdf" ><p>Specimen / Type in Use</p></a>
-							</div>
 					
 
 					</div>
@@ -326,7 +522,55 @@
 
 				    	<div class="inputtesting">
 						
-							<textarea class="typeout flutter" rows="3" col="" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea>
+							<!-- <textarea class="typeout mies" style ="font-family: 'miesstencil'; " placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea> -->
+							<div class="typeout mies" data-italicless="false" style=" width: 100%; line-height: 1.08em;" contenteditable="true" spellcheck="false">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
+					
+
+						</div> 
+
+
+					</aside>
+				</div>
+<!--********* FLUTTER ********/-->
+				<div class="type" id="flutter">
+				<p style="padding-top: 0px; font-size: 55px" >FLUTTER</p>
+				</div>
+				<!-- FLUTTER content -->
+				<div class="typetesting flutter">
+
+					<div class="control">
+							<div class="size">
+									<ul>
+										<li id="flutterdimension" alt="flutter">Dimension</li>
+										<li id="flutterlight" alt="flutter">Light</li>
+										<li id="fluttermedium" alt="flutter">Medium</li>
+										<li id="flutterbold" alt="flutter">Bold</li>
+									</ul>
+							</div>
+
+							<div class="module">
+								<p>Typesize</p>
+								<input class="sizing flutter" alt="flutter" type="range" value="60" min="10" max="200"> 
+								<output class="output flutter">60</output>
+								
+								<div class="specimen">
+							<!-- 		<a href="specimens/Knedge_Spenimen.pdf" download="Knedge_Spenimen.pdf" > -->
+									<p>Specimen PDF</p>
+									
+									</div>
+							</div>
+
+
+					
+
+					</div>
+
+					<aside>
+
+				    	<div class="inputtesting">
+						
+							<!-- <textarea class="typeout flutter" style ="font-family: 'flutterdimension'; " placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea> -->
+							<div class="typeout flutter" data-italicless="false" style=" font-family:'flutterdimension'; width: 100%; line-height: 1.08em;" contenteditable="true" spellcheck="false">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
 					
 
 						</div> 
@@ -336,7 +580,7 @@
 				</div>
 <!--********* HERITAGEO ********/-->
 				<div class="type" id="heritageo">
-				<h1 style="padding-top: 0px ; font-size: 50px">Heritageo</h1>
+				<p>Heritageo</p>
 				</div>
 				<!-- HERITAGEO content -->
 				<div class="typetesting heritageo">
@@ -344,20 +588,22 @@
 					<div class="control">
 							<div class="size">
 									<ul>
-										<li id="expanded" class="selected">Expanded</li>
+										<li id="heritageoexpanded" alt="heritageo">Expanded</li>
 									</ul>
 							</div>
 
 							<div class="module">
 							<p>Typesize</p>
-								<input class="sizing" type="range" value="60" min="10" max="200"> 
-								<output>60</output>
-								<!-- <button class="reset">Reset</button>  -->
+								<input class="sizing heritageo" alt="heritageo" type="range" value="60" min="10" max="200"> 
+								<output class="output heritageo">60</output>
+								<div class="specimen">
+							<!-- 		<a href="specimens/Knedge_Spenimen.pdf" download="Knedge_Spenimen.pdf" > -->
+									<p>Specimen PDF</p>
+									
+									</div>
 							</div>
 
-							<div class="specimen">
-							<a href="specimens/Knedge_Spenimen.pdf" download="Knedge_Spenimen.pdf" ><p>Specimen / Type in Use</p></a>
-							</div>
+
 					
 
 					</div>
@@ -366,7 +612,8 @@
 
 				    	<div class="inputtesting">
 						
-							<textarea class="typeout heritageo" rows="3" col="" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea>
+							<!-- <textarea class="typeout heritageo" style= "padding-bottom:40px;" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea> -->
+							<div class="typeout heritageo" data-italicless="false" style=" width: 100%; line-height: 1.08em;" contenteditable="true" spellcheck="false">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
 					
 
 						</div> 
@@ -376,7 +623,7 @@
 				</div>
 <!--********* BOTTOMI ********/-->
 				<div class="type" id="bottomi">
-				<h1 style="padding-top: 0px ;font-size: 55px">BOTTOMI</h1>
+				<p>BOTTOMI</p>
 				</div>
 				<!-- BOTTOMI CONTENT-->
 				<div class="typetesting bottomi">
@@ -384,22 +631,22 @@
 					<div class="control">
 							<div class="size">
 									<ul>
-										<li id="outline" class="selected">Outline</li>
+										<li id="bottomioutline" alt="bottomi">Outline</li>
+										<li id="bottomifilled" alt="bottomi">Filled</li>
 									</ul>
 							</div>
 
 							<div class="module">
 								<p>Typesize</p>
-								<input class="sizing" type="range" value="60" min="10" max="200"> 
-								<output>60</output>
+								<input class="sizing bottomi" alt="bottomi" type="range" value="60" min="10" max="200"> 
+								<output class="output bottomi">60</output>
 								
-								<!-- <button class="reset">Reset</button>  -->
+								<div class="specimen">
+							<!-- 		<a href="specimens/Knedge_Spenimen.pdf" download="Knedge_Spenimen.pdf" > -->
+									<p>Specimen PDF</p>
+									
+									</div>
 							</div>
-
-							<div class="specimen">
-							<a href="specimens/Knedge_Spenimen.pdf" download="Knedge_Spenimen.pdf" ><p>Specimen / Type in Use</p></a>
-							</div>
-					
 
 					</div>
 
@@ -407,7 +654,8 @@
 
 				    	<div class="inputtesting">
 						
-							<textarea class="typeout bottomi" rows="3" col="" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea>
+							<!-- <textarea class="typeout bottomi" style = "font-family:'bottomioutline'; padding-bottom:60px;  " placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea> -->
+							<div class="typeout bottomi" data-italicless="false" style="font-family: 'bottomioutline'; width: 100%; line-height: 1.08em;" contenteditable="true" spellcheck="false">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
 					
 
 						</div> 
@@ -417,7 +665,7 @@
 				</div>
 <!--********* RUBEND ********/-->
 				<div class="type" style="font-family:'rubendfoldable',sans-serif;" id="rubend">
-				<h1 style="font-size:58px;">RUBEND</h1>
+				<p>RUBEND</p>
 				</div>
 				<!-- rubend CONTENT-->
 				<div class="typetesting rubend">
@@ -425,22 +673,23 @@
 					<div class="control">
 							<div class="size">
 									<ul>
-										<li id="expandable" class="selected">Expandable</li>
-									<!-- 	<li id="flexible">Flexible</li>
-										<li id="foldable">Foldable</li> -->
+										<li id="rubendexpandable" alt="rubend">Expandable</li>
+										<li id="rubendflexible" alt="rubend">Flexible</li>
+										<li id="rubendfoldable" alt="rubend">Foldable</li>
 									</ul>
 							</div>
 
 							<div class="module">
 							<p>Typesize</p>
-								<input class="sizing" type="range" value="60" min="10" max="200"> 
-								<output>60</output>							
-								<!-- <button class="reset">Reset</button>  -->
+								<input class="sizing rubend" alt="rubend" type="range" value="60" min="10" max="200"> 
+								<output class="output rubend">60</output>							
+								<div class="specimen">
+							<!-- 		<a href="specimens/Knedge_Spenimen.pdf" download="Knedge_Spenimen.pdf" > -->
+									<p>Specimen PDF</p>
+									
+									</div>
 							</div>
 
-							<div class="specimen">
-							<a href="specimens/Knedge_Spenimen.pdf" download="Knedge_Spenimen.pdf" ><p>Specimen / Type in Use</p></a>
-							</div>
 					
 
 					</div>
@@ -449,7 +698,8 @@
 
 				    	<div class="inputtesting">
 						
-							<textarea class="typeout rubend" rows="3" col="" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea>
+							<!-- <textarea class="typeout rubend" style="font-family: 'rubendfoldable';" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea> -->
+							<div class="typeout rubend" data-italicless="false" style=" font-family:'rubendfoldable'; width: 100%; line-height: 1.08em;" contenteditable="true" spellcheck="false">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
 					
 
 						</div> 
@@ -459,7 +709,7 @@
 				</div>
 <!--********* ASIALPHABET ********/-->
 				<div class="type" id="asialphabet">
-				<h1 style="padding-top: 0;font-size: 50px">ASIALPHABET</h1>
+				<p>ASIALPHABET</p>
 				</div>
 				<!-- asialphabet CONTENT-->
 				<div class="typetesting asialphabet">
@@ -467,7 +717,7 @@
 					<div class="control">
 							<div class="size">
 									<ul>
-										<li id="regular" class="selected">Regular</li>
+										<li id="asialphabetregular" alt="asialphabet">Regular</li>
 									<!-- 	<li id="flexible">Flexible</li>
 										<li id="foldable">Foldable</li> -->
 									</ul>
@@ -475,15 +725,16 @@
 
 							<div class="module">
 								<p>Typesize</p>
-								<input class="sizing" type="range" value="60" min="10" max="200"> 
-								<output>60</output>
+								<input class="sizing asialphabet" alt="asialphabet" type="range" value="60" min="10" max="200"> 
+								<output class="output asialphabet">60</output>
 								
-								<!-- <button class="reset">Reset</button>  -->
+								<div class="specimen">
+							<!-- 		<a href="specimens/Knedge_Spenimen.pdf" download="Knedge_Spenimen.pdf" > -->
+									<p>Specimen PDF</p>
+									
+									</div>
 							</div>
 
-							<div class="specimen">
-							<a href="specimens/Knedge_Spenimen.pdf" download="Knedge_Spenimen.pdf" ><p>Specimen / Type in Use</p></a>
-							</div>
 					
 
 					</div>
@@ -491,36 +742,79 @@
 					<aside>
 
 				    	<div class="inputtesting">
-							<textarea class="typeout asialphabet" rows="3" col="" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea>
+							<!-- <textarea class="typeout asialphabet" style ="font-size: 55px; padding-bottom:60px;  " placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea> -->
+							<div class="typeout asialphabet" data-italicless="false" style=" width: 100%; line-height: 1.08em;" contenteditable="true" spellcheck="false">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
 						</div> 
 					</aside>
 				</div>
-<!--********* FUTULABYRINTH ********/-->		
-<!--********* COMMENCEMENT ********/-->
-				<div class="type" id="commencementmono">
-				<h1>COMMENCEMENT</h1>
+<!--********* FATOL ********/-->
+				<div class="type" id="fatol">
+				<p style="padding-top: 0;font-size: 50px">FATOL</p>
 				</div>
-				<div class="typetesting commencementmono">
+				<!-- asialphabet CONTENT-->
+				<div class="typetesting fatol">
 
 					<div class="control">
 							<div class="size">
 									<ul>
-										<li id="regular" class="selected" >Regular</li>
+										<li id="fatolheavy" alt="fatol" >Heavy</li>
+									<!-- 	<li id="flexible">Flexible</li>
+										<li id="foldable">Foldable</li> -->
+									</ul>
+							</div>
+
+							<div class="module">
+								<p>Typesize</p>
+								<input class="sizing fatol" alt="fatol" type="range" value="60" min="10" max="200"> 
+								<output class="output fatol">60</output>
+								
+								<div class="specimen">
+							<!-- 		<a href="specimens/Knedge_Spenimen.pdf" download="Knedge_Spenimen.pdf" > -->
+									<p>Specimen PDF</p>
+									
+									</div>
+							</div>
+
+
+					
+
+					</div>
+
+					<aside>
+
+				    	<div class="inputtesting">
+							<!-- <textarea class="typeout fatol" style=" font-family: 'fatolheavy'; padding-bottom:60px;" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea> -->
+							<div class="typeout fatol" data-italicless="false" style=" font-family:'fatolheavy' ; width: 100%; line-height: 1.08em;" contenteditable="true" spellcheck="false">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
+						</div> 
+					</aside>
+				</div>
+<!--********* FUTULABYRINTH ********/-->	
+				<div class="type" id="futulabyrinth">
+				<p>futulabyrinth</p>
+				</div>
+				<div class="typetesting futulabyrinth">
+
+					<div class="control">
+							<div class="size">
+									<ul>
+										<li id="futulabyrinthcircuit" alt="futulabyrinth" >Circuit</li>
+										<li id="futulabyrinthsquare" alt="futulabyrinth" >Square</li>
 									
 									</ul>
 							</div>
 
 							<div class="module">
 								<p>Typesize</p>
-								<input class="sizing" type="range" value="60" min="10" max="200"> 
-								<output>60</output>
+								<input class="sizing futulabyrinth" type="range" value="60" min="10" max="200"> 
+								<output class="output futulabyrinth">60</output>
 								
-								<!-- <button class="reset">Reset</button>  -->
+								<div class="specimen">
+							<!-- 		<a href="specimens/Knedge_Spenimen.pdf" download="Knedge_Spenimen.pdf" > -->
+									<p>Specimen PDF</p>
+									
+									</div>
 							</div>
 
-							<div class="specimen">
-							<a href="specimens/Commencement_Spenimen.pdf" download="Commencement_Spenimen.pdf" ><p>Specimen / Type in Use</p></a>
-							</div>
 					
 
 					</div>
@@ -529,7 +823,91 @@
 
 				    	<div class="inputtesting">
 						
-							<textarea class="typeout commencementmono" rows="3" col="" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea>
+						<!-- 	<textarea class="typeout futulabyrinth" style="font-family: 'futulabyrinthcircuit';" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea> -->
+						<div class="typeout futulabyrinth" data-italicless="false" style="font-family: 'futulabyrinthcircuit' ;width: 100%; line-height: 1.08em;" contenteditable="true" spellcheck="false">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
+					
+
+						</div> 
+
+
+					</aside>
+				</div>		
+<!--********* OPCODE ********/-->	
+				<div class="type" id="opcode">
+				<p style="padding-top: 10px;">OPCODE</p>
+				</div>
+				<div class="typetesting opcode">
+
+					<div class="control">
+							<div class="size">
+									<ul>
+										<li id="opcodebinary" alt="opcode">Binary</li>
+									
+									</ul>
+							</div>
+
+							<div class="module">
+								<p>Typesize</p>
+								<input class="sizing opcode" type="range" value="60" min="10" max="200"> 
+								<output class="output opcodeh">60</output>
+								
+								<div class="specimen">
+							<!-- 		<a href="specimens/Knedge_Spenimen.pdf" download="Knedge_Spenimen.pdf" > -->
+									<p>Specimen PDF</p>
+									
+									</div>
+							</div>
+
+					
+
+					</div>
+
+					<aside>
+
+				    	<div class="inputtesting">
+						
+							<!-- <textarea class="typeout opcode" style="font-family: 'opcodebinary'; padding-bottom:120px; "  placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea> -->
+							<div class="typeout opcode" data-italicless="false" style=" font-family:'opcodebinary' ; width: 100%; line-height: 1.08em;" contenteditable="true" spellcheck="false">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
+					
+
+						</div> 
+
+
+					</aside>
+				</div>		
+<!--********* COMMENCEMENT ********/-->
+				<div class="type" id="commencementmono">
+				<p>COMMENCEMENT</p>
+				</div>
+				<div class="typetesting commencementmono">
+
+					<div class="control">
+							<div class="size">
+									<ul>
+										<li id="commencementmonoregular" alt="commencementmono" >Mono</li>
+									
+									</ul>
+							</div>
+
+							<div class="module">
+								<p>Typesize</p>
+								<input class="sizing commencementmono" type="range" value="60" min="10" max="200"> 
+								<output class="output commencementmono">60</output>
+								
+								<div class="specimen">
+							<a href="specimens/Commencement_Spenimen.pdf" download="Commencement_Spenimen.pdf" ><p>Specimen PDF</p></a>
+							</div>
+							</div>
+
+						
+					</div>
+
+					<aside>
+
+				    	<div class="inputtesting">
+						
+							<!-- <textarea class="typeout commencementmono"  style="padding-bottom:160px; " placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea> -->
+							<div class="typeout commencementmono" data-italicless="false" style=" width: 100%; line-height: 1.08em;" contenteditable="true" spellcheck="false">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
 					
 
 						</div> 
@@ -539,45 +917,49 @@
 				</div>	
 <!--********* AUGUST ********/-->
 				<div class="type" id="august">
-					<h1 style="padding-top: 0px;font-size: 62px;">AUGUST</h1>
+					<p style="padding-top: 0px;font-size: 62px;">AUGUST</p>
 				</div>	
 				<div class="typetesting august">
 
 					<div class="control">
 							<div class="size">
 									<ul>
-										<li id="light" class="selected" >Light</li>
-										<li id="lightitalic" class="selected" >Light Italic</li>
-										<li id="medium" class="selected" >Medium</li>
-										<li id="mediumitalic" >Medium Italic</li>
-										<li id="bold">Bold</li>
-										<li id="boldcondensed">Bold Condensed</li>
-										<li id="boldexpanded" >Bold Expanded</li>
-										<li id="bolditalic">Bold Italic</li>
+										<li id="augustlight" alt="august" >Light</li>
+										<li id="augustlight_italic" alt="august" >Light Italic</li>
+										<li id="augustmedium" alt="august" >Medium</li>
+										<li id="augustmedium_italic" alt="august">Medium Italic</li>
+										<li id="augustbold" alt="august">Bold</li>
+										<li id="augustbold_condensed" alt="august">Bold Condensed</li>
+										<li id="augustbold_expanded" alt="august" >Bold Expanded</li>
+										<li id="augustbold_italic" alt="august">Bold Italic</li>
 									
 									</ul>
 							</div>
 
 							<div class="module">
 								<p>Typesize</p>
-								<input class="sizing" type="range" value="60" min="10" max="200"> 
-								<output>60</output>
+								<input class="sizing august" alt="august" type="range" value="60" min="10" max="200"> 
+								<output class="output august">60</output>
 								
-								<!-- <button class="reset">Reset</button>  -->
+													
+									<div class="specimen">
+							<!-- 		<a href="specimens/Knedge_Spenimen.pdf" download="Knedge_Spenimen.pdf" > -->
+									<p>Specimen PDF</p>
+									
+									</div>
 							</div>
 
-							<div class="specimen">
-							<a href="specimens/Commencement_Spenimen.pdf" download="Commencement_Spenimen.pdf" ><p>Specimen / Type in Use</p></a>
-							</div>
+				
 					
 
 					</div>
 
 					<aside>
 
-				    	<div class="inputtesting">
+				    	<div class="inputtesting"> 
 						
-							<textarea class="typeout august" rows="3" col="" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea>
+							<!-- <textarea class="typeout august" style="font-family: 'augustmedium'; padding-bottom:60px;" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea> -->
+							<div class="typeout august" data-italicless="false" style=" font-family:'augustmedium'; width: 100%; line-height: 1.08em;" contenteditable="true" spellcheck="false">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
 					
 
 						</div> 
@@ -588,7 +970,7 @@
 
 <!--********* BERNHARD ********/-->
 				<div class="type" id="bernhard">
-				<h1 style="padding-top: 0px; font-size: 58px;">BERNHARD</h1>
+				<p>BERNHARD</p>
 				</div>
 
 				<div class="typetesting bernhard">
@@ -596,7 +978,7 @@
 					<div class="control">
 							<div class="size">
 									<ul>
-										<li id="heavy" class="selected" >Heavy</li>
+										<li id="bernhardheavy" alt="bernhard" >Heavy</li>
 
 									
 									</ul>
@@ -604,16 +986,16 @@
 
 							<div class="module">
 								<p>Typesize</p>
-								<input class="sizing" type="range" value="60" min="10" max="200"> 
-								<output>60</output>
+								<input class="sizing bernhard"  alt="bernhard" type="range" value="60" miš="10" max="200"> 
+								<output class="output bernhard">60</output>
 								
-								<!-- <button class="reset">Reset</button>  -->
+									<div class="specimen">
+							<!-- 		<a href="specimens/Knedge_Spenimen.pdf" download="Knedge_Spenimen.pdf" > -->
+									<p>Specimen PDF</p>
+									
+									</div>
 							</div>
 
-							<div class="specimen">
-							<a href="specimens/Commencement_Spenimen.pdf" download="Commencement_Spenimen.pdf" ><p>Specimen / Type in Use</p></a>
-							</div>
-					
 
 				</div>
 
@@ -621,7 +1003,8 @@
 
 				    	<div class="inputtesting">
 						
-							<textarea class="typeout bernhard" rows="3" col="" placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea>
+							<!-- <textarea class="typeout bernhard"  placeholder="Lorem Ipsum is simply dummy text of the printing and typesetting industry"></textarea> -->
+							<div class="typeout bernhard" data-italicless="false" style=" width: 100%; line-height: 1.08em;" contenteditable="true" spellcheck="false">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
 					
 
 						</div> 
@@ -630,7 +1013,7 @@
 					</aside>
 				</div>
 
-				<div>
+				<div class="end">
 				<p align="center" style="padding-top: 14px; padding-bottom: 20px;">All rights reserved by Jangs Muller Type Foundry</p>
 				</div>
 
@@ -646,60 +1029,65 @@
 
 
 
+<div class="sidemenu">
 
- <div class="side about">
- <div class="insemititle" style="padding-bottom: 5px;font-size: 17px;">ABOUT</div>
-  <div class="popup about">
+	 <div class="side about">
+	 <div class="insemititle" style="padding-bottom: 5px;font-size: 17px; cursor:pointer">ABOUT</div>
+	  <div class="popup about">
 
 
-				<div class="content about">
-				
-		
-					<div class="about text">
-								<p> 
-									
-									<br>
-									The Jangs Müller Type Foundry is established 2012 from New Haven,CT. USA. as a branch of the Jangs Müller Design Studio to focus on Type Experiment and Research.
-									<br>
-									<br>
-									Jangs Müller is the principle typeface designer of this type foundry who
-									is interested in all forms that can be converged or exchanged its shape
-									or idea to letterform.
-									<br>
-									<br>
-									For information on web and mobile applicences, please contact us.<br>
-									All fonts are provided in OpenType format for Mac &amp; PC. 
-								</p>
-								<br>
-								<br>
-								<br>
-								<br>
-								<br>
-								<div class="about contact">
-								<p>
-									+1(312)-402-1527
-									<br>
-									janghyun.hann@gmail.com
-									<br>
-									<br>
-									Website Designed by Jangs Müller
-									<br>
-									Website Developed by <a href="http://www.jipark.org/">Ji Park
-									</a>
-							
-								</p>
-					</div>
-					</div>
-
+					<div class="content about">
 					
+			
+						<div class="about text">
+									<p> 
+										
+										<br>
+										The Jangs Müller Type Foundry is established 2012 from New Haven,CT. USA. as a branch of the Jangs Müller Design Studio to focus on Type Experiment and Research.
+										<br>
+										<br>
+										Jangs Müller is the principle typeface designer of this type foundry who
+										is interested in all forms that can be converged or exchanged its shape
+										or idea to letterform.
+										<br>
+										<br>
+										For information on web and mobile applicences, please contact us.<br>
+										All fonts are provided in OpenType format for Mac &amp; PC. 
+									</p>
+									<br>
+									<br>
+									<br>
+									<br>
+									<br>
+									<div class="about contact">
+									<p>
+										jangsmuller@gmail.com
+										<br>
+										<br>
+										Website Designed by Jangs Müller
+										<br>
+										Website Developed by <a href="http://www.jipark.org/">Ji Park
+										</a>
+								
+									</p>
+						</div>
+						</div>
 
-				</div>
-	</div>
+						
+
+					</div>
+		</div>
 
  </div>
 
  <div class="side news">
- <div class="insemititle" style="padding-bottom: 5px;font-size: 17px;">NEWS</div>
+		 <div class="insemititle" style="padding-bottom: 5px;font-size: 17px;cursor:pointer">
+		 	<div class="newstitle">NEWS</div>
+		 	<div class="inusetitle" ><a onclick="return popitup('typeinuse.html')">TYPE IN USE</a></div>
+
+
+		 </div>
+
  	<div class="popup news">
 	
 				<div class="content news">
@@ -726,9 +1114,8 @@
 
 
 
+</div>
 
-
-	
 
 
 
